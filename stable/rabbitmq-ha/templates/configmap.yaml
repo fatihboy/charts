@@ -120,3 +120,8 @@ data:
   advanced.config: |
 {{ .Values.advancedConfig | indent 4 }}
 {{- end }}
+
+{{- if .Values.envConfig }}
+  rabbitmq-env.conf: |
+{{ .Values.envConfig | indent 4 }}
+{{- end }}

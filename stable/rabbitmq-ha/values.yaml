@@ -17,6 +17,10 @@ extraConfig: |
 ## Ref: https://www.rabbitmq.com/configure.html#advanced-config-file
 advancedConfig: |
 
+## Place rabbitmq-env.conf file in /etc/rabbitmq/rabbitmq-env.conf
+## Ref: https://www.rabbitmq.com/configure.html#customise-environment
+envConfig: |
+
 ## Definitions specification within the secret, will always be mounted
 ## at /etc/definitions/defintions.json
 definitionsSource: definitions.json
